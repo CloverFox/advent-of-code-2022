@@ -16,5 +16,5 @@ fn main() {
         .take(3)
         .fold(0, |acc, x| acc + x);
 
-    println!("the max calorie count is {}", max_three_elves);
+    println!("the total of the top 3 calorie counts is {}", max_three_elves);
 }
