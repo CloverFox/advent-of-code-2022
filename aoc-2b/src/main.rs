@@ -99,8 +99,6 @@ fn main() {
             }
         }).collect();
 
-    print!("{:#?}", rounds);
-
     let total_score: i32 = rounds.iter()
         .map(|round| determine_score(&round))
         .fold(0, |acc, x| acc + x);
